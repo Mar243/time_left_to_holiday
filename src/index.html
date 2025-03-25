@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta  name="description" content="Осталось дней до отпуска">
+  <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="images/favicons/favicon.svg" />
+  <link rel="shortcut icon" href="images/favicons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png" />
+  <link rel="manifest" href="images/favicons/site.webmanifest" />
+  <title>Отпуск</title>
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper header__wrapper">
+    <h1 class="header__title">Когда в отпуск</h1>
+    </div>
+  </header>
+  <main class="main-page">
+    <div class="wrapper main-page__wrapper">
+      <input class="input__date" id="date" type="text" placeholder="Здесь дата">  
+      <button class="button" id="set-date">Установить</button>       
+  
+      <div class="timer-counter">
+        <div class="timer"><h2 id="day">00</h2><span>дн.</span></div>
+        <div class="timer"><h2 id="hrs">00</h2><span>ч.</span></div>
+        <div class="timer"><h2 id="min">00</h2><span>мин.</span></div>
+        <div class="timer"><h2 id="sec">00</h2><span>сек</span></div>
+      </div>   
+      <div class="result-message" id="result">....</div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrapper footer__wrapper">
+      <p class="author"><cite>&#169;Prokofyeva Maria</cite></p>
+    </div>
+  </footer>
+  
+</body>
+</html>

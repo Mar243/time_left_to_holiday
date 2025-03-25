@@ -1,0 +1,23 @@
+.main-page {
+  background-color: #f9fafc;
+}
+.main-page__wrapper {
+  padding: 150px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.input__date {
+  width: 250px;
+  margin: 0 auto;
+  padding: 15px 20px;  
+}
+.input__date::placeholder {
+  font-size: 18px;
+}
+
+.result-message {
+  margin: 0 auto;
+}
